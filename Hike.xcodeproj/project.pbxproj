@@ -12,6 +12,8 @@
 		BA804D782A6E8AF300BEDD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA804D772A6E8AF300BEDD97 /* Assets.xcassets */; };
 		BA804D7B2A6E8AF300BEDD97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA804D7A2A6E8AF300BEDD97 /* Preview Assets.xcassets */; };
 		BA804D842A6E8F2F00BEDD97 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA804D832A6E8F2F00BEDD97 /* ColorExtension.swift */; };
+		BA804D862A6FFA7500BEDD97 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA804D852A6FFA7500BEDD97 /* CardView.swift */; };
+		BA804D882A6FFADD00BEDD97 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA804D872A6FFADD00BEDD97 /* CustomBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		BA804D772A6E8AF300BEDD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA804D7A2A6E8AF300BEDD97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BA804D832A6E8F2F00BEDD97 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		BA804D852A6FFA7500BEDD97 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BA804D872A6FFADD00BEDD97 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,8 @@
 		BA804D812A6E8E7600BEDD97 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BA804D852A6FFA7500BEDD97 /* CardView.swift */,
+				BA804D872A6FFADD00BEDD97 /* CustomBackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,8 +162,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA804D882A6FFADD00BEDD97 /* CustomBackgroundView.swift in Sources */,
 				BA804D842A6E8F2F00BEDD97 /* ColorExtension.swift in Sources */,
 				BA804D762A6E8AEF00BEDD97 /* ContentView.swift in Sources */,
+				BA804D862A6FFA7500BEDD97 /* CardView.swift in Sources */,
 				BA804D742A6E8AEF00BEDD97 /* HikeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
