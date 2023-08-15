@@ -65,13 +65,7 @@ struct CardView: View {
                         )
                         .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
                 }
-                .padding(.vertical)
-                .padding(.horizontal, 30)
-                .background(
-                    LinearGradient(colors: [ .customGrayLight,
-                                             .customGrayMedium], startPoint: .top, endPoint: .bottom)
-)
-                .cornerRadius(40)
+                .buttonStyle(GradientButton())
             }
         }//: CARD
         .frame(width: 320, height: 570)
