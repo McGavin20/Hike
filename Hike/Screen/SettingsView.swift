@@ -53,6 +53,15 @@ struct SettingsView: View {
             
             
             //ABOUT
+            Section(
+                header: Text("ABOUT THE APP "), footer: HStack {
+                    Spacer()
+                    Text("Copyright All Rights Reserved.")
+                    Spacer()
+                }
+                .padding(.vertical, 8)) {
+                LabeledContent("Application", value: "Hike")
+            }
         }//: LIST
        
     }
