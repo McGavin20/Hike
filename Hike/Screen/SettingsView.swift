@@ -60,7 +60,12 @@ struct SettingsView: View {
                     Spacer()
                 }
                 .padding(.vertical, 8)) {
-                LabeledContent("Application", value: "Hike")
+                    LabeledContent("Application", value: "Hike");
+                    LabeledContent("Application", value: "Hike");
+                    LabeledContent("Application", value: "Hike");
+                    LabeledContent("Application", value: "Hike");
+                    LabeledContent("Application", value: "Hike");
+                    LabeledContent("Application", value: "Hike");
             }
         }//: LIST
        
