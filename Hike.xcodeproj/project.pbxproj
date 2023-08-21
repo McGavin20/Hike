@@ -19,6 +19,7 @@
 		BA92ACA42A8BB8B8006F17E9 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92ACA32A8BB8B8006F17E9 /* CustomCircleView.swift */; };
 		BA92ACA62A8BBD60006F17E9 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92ACA52A8BBD60006F17E9 /* MotionAnimationView.swift */; };
 		BA92ACAB2A8D00D2006F17E9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92ACAA2A8D00D2006F17E9 /* SettingsView.swift */; };
+		BAFBC6612A938E94007FD733 /* CustomListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBC6602A938E94007FD733 /* CustomListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		BA92ACA32A8BB8B8006F17E9 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		BA92ACA52A8BBD60006F17E9 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		BA92ACAA2A8D00D2006F17E9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BAFBC6602A938E94007FD733 /* CustomListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				BA804D892A73E7C700BEDD97 /* CustomButtonView.swift */,
 				BA92ACA32A8BB8B8006F17E9 /* CustomCircleView.swift */,
 				BA92ACA52A8BBD60006F17E9 /* MotionAnimationView.swift */,
+				BAFBC6602A938E94007FD733 /* CustomListRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				BA804D882A6FFADD00BEDD97 /* CustomBackgroundView.swift in Sources */,
 				BA92ACA42A8BB8B8006F17E9 /* CustomCircleView.swift in Sources */,
+				BAFBC6612A938E94007FD733 /* CustomListRowView.swift in Sources */,
 				BA804D842A6E8F2F00BEDD97 /* ColorExtension.swift in Sources */,
 				BA804D762A6E8AEF00BEDD97 /* ContentView.swift in Sources */,
 				BA92ACA22A8B781F006F17E9 /* Gradient.swift in Sources */,

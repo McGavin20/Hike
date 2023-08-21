@@ -60,12 +60,21 @@ struct SettingsView: View {
                     Spacer()
                 }
                 .padding(.vertical, 8)) {
-                    LabeledContent("Application", value: "Hike");
-                    LabeledContent("Application", value: "Hike");
-                    LabeledContent("Application", value: "Hike");
-                    LabeledContent("Application", value: "Hike");
-                    LabeledContent("Application", value: "Hike");
-                    LabeledContent("Application", value: "Hike");
+                    //LabeledContent("Application", value: "Hike");
+                    CustomListRowView(rowLabel: "Application", rowIcon: "apps.iphone", rowContent: "HIKE", rowTintColor: .blue)
+                    
+                    CustomListRowView(rowLabel: "Compatibility", rowIcon: "info.circle", rowContent: "iOS", rowTintColor: .red)
+                    
+                    CustomListRowView(rowLabel: "Technology", rowIcon: "swift", rowContent: "Swift", rowTintColor: .orange)
+                    
+                    CustomListRowView(rowLabel: "Version", rowIcon: "gear", rowContent: "1.0", rowTintColor: .purple)
+                    
+                    CustomListRowView(rowLabel: "Developer", rowIcon: "ellipsis.curlybraces", rowContent: "Sharma McGavin", rowTintColor: .mint)
+                    
+                    CustomListRowView(rowLabel: "Designer", rowIcon: "paintpalette", rowContent: "Robert Petras", rowTintColor: .pink)
+                    
+                    CustomListRowView(rowLabel: "Website", rowIcon: "globe", rowContent: nil, rowTintColor: .pink, rowLinkLabel: "GitHub", rowLinkDestination: "https://github.com/McGavin20")
+
             }
         }//: LIST
        
