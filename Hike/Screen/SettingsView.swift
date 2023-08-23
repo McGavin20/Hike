@@ -9,6 +9,15 @@ import SwiftUI
 
 struct SettingsView: View {
     var body: some View {
+        
+        private let alternateAppIcons: [String] = [
+            "AppIcon-MagnifyingGlass",
+            "AppIcon-Map",
+            "AppIcon-Mushroom",
+            "AppIcon-Camera",
+            "AppIcon-Backpack",
+            "AppIcon-Campfire"
+        ]
         List {
             //HEADER
             Section {
